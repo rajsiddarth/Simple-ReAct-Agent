@@ -29,3 +29,9 @@ Question: How much does a Bulldog weigh?
 Thought: I should look up the dog's weight.
 Action: average_dog_weight: Bulldog
 PAUSE
+
+PRs welcome! You can contribute by:
+1. Adding new tools
+2. Improving prompt design
+3. Adding CLI or web UI
+

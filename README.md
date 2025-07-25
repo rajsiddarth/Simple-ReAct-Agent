@@ -1,6 +1,14 @@
 #  Simple ReAct Agent
 
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rajsiddarth/SimpleReActAgent/HEAD)
+## 🔐 API Key Setup
+
+To use this agent, you'll need an OpenAI API key.
+
+1. **Create a `.env` file** in the root directory (same folder as `agent.py` or your notebook).
+2. Paste your OpenAI key like this:
+
+OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 This project implements a basic ReAct-style agent that simulates step-by-step reasoning and action execution using OpenAI's GPT model.
 

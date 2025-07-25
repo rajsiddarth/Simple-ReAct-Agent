@@ -1,2 +1,31 @@
-# SimpleReActAgent
-How to build a simple ReAct agent
+#  Simple ReAct Agent
+
+This project implements a basic ReAct-style agent that simulates step-by-step reasoning and action execution using OpenAI's GPT model.
+
+The agent runs in a loop of:
+**Thought → Action → PAUSE → Observation → Answer**
+
+---
+
+##  Features
+
+- Maintains full conversation history
+- Supports tool use through `Action:` commands
+- Supports multi-step reasoning with Observations and PAUSE
+- Uses OpenAI's `gpt-4.1-mini` model
+- Clean agent interface with Python class
+
+---
+
+## How It Works
+
+1. The user asks a question.
+2. The agent thinks (`Thought`), takes an action (`Action: tool: input`), then `PAUSE`s.
+3. The environment injects an `Observation`.
+4. The agent resumes with final `Answer`.
+
+Example:
+Question: How much does a Bulldog weigh?
+Thought: I should look up the dog's weight.
+Action: average_dog_weight: Bulldog
+PAUSE

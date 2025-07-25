@@ -1,5 +1,7 @@
 #  Simple ReAct Agent
 
+[![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rajsiddarth/SimpleReActAgent/HEAD)
+
 This project implements a basic ReAct-style agent that simulates step-by-step reasoning and action execution using OpenAI's GPT model.
 
 The agent runs in a loop of:

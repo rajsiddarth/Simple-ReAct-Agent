@@ -3,7 +3,7 @@
 [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rajsiddarth/SimpleReActAgent/HEAD)
 ## 🔐 API Key Setup
 
-To use this agent, you'll need an OpenAI API key..Paste your OpenAI key like this when prompted in notebook:
+To use this agent, you'll need an OpenAI API key..Paste your OpenAI key like this when prompted in Binder:
 
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
